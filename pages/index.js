@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import Link from 'next/Link';
+import Link from 'next/link';
 import ImgCard from '../comps/ImgCard';
-import NavBar from '../comps/NavBar/v2';
+import NavBar from '../comps/v2';
 
 export default function Home() {
   return (

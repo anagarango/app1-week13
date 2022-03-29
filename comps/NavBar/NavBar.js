@@ -1,5 +1,5 @@
 export default function NavBar(){
     return <div>
-    <h3>Hello what ur doing</h3>
+    <h3>Hello what ur doing, this is the navbar</h3>
     </div>
 }

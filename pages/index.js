@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 import Link from 'next/link';
 import ImgCard from '../comps/ImgCard';
-import NavBar from '../comps/v2';
+import NavBar from '../comps/NavBar/NavBar';
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <NavBar></NavBar>
       <Link href="/boiler">GO TO BOILER</Link>
       <ImgCard bg="#DAD ">This is a children in the tag </ImgCard>
       <ImgCard tcl="#ABC980" img="http://placekitten.com/400/400"></ImgCard>
